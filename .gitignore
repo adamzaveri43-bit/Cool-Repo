@@ -8,3 +8,6 @@
 /captures/
 .externalNativeBuild/
 .cxx/
+
+# Build artifacts copied to repo root for delivery
+*.apk
