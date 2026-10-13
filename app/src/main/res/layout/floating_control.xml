@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center_vertical">
+
+    <!-- The collapsed state: a small black dot -->
+    <View
+        android:id="@+id/dot"
+        android:layout_width="22dp"
+        android:layout_height="22dp"
+        android:background="@drawable/dot_background" />
+
+    <!-- The expanded state: a compact control row, hidden until the dot is tapped -->
+    <LinearLayout
+        android:id="@+id/panel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginStart="8dp"
+        android:background="@drawable/panel_background"
+        android:padding="6dp"
+        android:gravity="center_vertical">
+
+        <Button
+            android:id="@+id/stopButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="0dp"
+            android:minHeight="0dp"
+            android:paddingHorizontal="14dp"
+            android:paddingVertical="4dp"
+            android:text="@string/stop" />
+    </LinearLayout>
+
+</LinearLayout>

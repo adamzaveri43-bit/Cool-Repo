@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Dot Recorder</string>
+    <string name="start">Start recording</string>
+    <string name="stop">Stop</string>
+    <string name="status_idle">Idle</string>
+    <string name="status_recording">Recording…</string>
+    <string name="channel_name">Screen recording</string>
+    <string name="notif_title">Dot Recorder</string>
+    <string name="notif_text">Recording your screen</string>
+    <string name="need_overlay">Grant \"Display over other apps\" so the dot can appear, then tap Start again.</string>
+    <string name="consent_declined">Recording cancelled.</string>
+    <string name="projection_failed">Could not start screen capture.</string>
+    <string name="saved">Saved %1$s</string>
+    <string name="privacy_note">Android always shows a consent dialog and a recording indicator while capturing. This app cannot and does not hide them.</string>
+</resources>
